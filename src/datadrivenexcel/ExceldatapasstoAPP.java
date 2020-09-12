@@ -125,7 +125,7 @@ testresultdata.put("10", new Object[] {10d, "navigate to site and login", "site 
  static HSSFWorkbook workbook;
  //define an Excel Work sheet
  HSSFSheet sheet;
-  static //define a test result data object
+  static //define a test result data object dfdggfhj
  Map<String, Object[]> testresultdata;
 
 public static void main(String[] args) throws EncryptedDocumentException, InvalidFormatException, IOException, InterruptedException 
@@ -167,7 +167,7 @@ public static void main(String[] args) throws EncryptedDocumentException, Invali
 			FileOutputStream out = new FileOutputStream(new File("SaveTestNGResultToExcel.xls"));
 			workbook.write(out);
 			out.close();
-			System.out.println("Successfully saved to repo git !!!");
+			System.out.println("Successfully saved to repo Excel File!!!");
 
 
 		} catch (FileNotFoundException e) {
